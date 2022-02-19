@@ -1,0 +1,55 @@
+.container {
+    background: lightblue;
+}
+.content {
+    position: fixed;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.log img {
+    margin-left: 30px;
+}
+.container h4 {
+    font-weight: bold;
+    font-size: 45px;
+    color: orangered;
+}
+.image img {
+    border-radius: 8px;
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.container .form {
+    background-color:#fff;
+    width: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.container table {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.link-right {
+    display: flex;
+    justify-content: flex-end;
+}
+.table thead {
+    padding: 15px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+.fa-user-plus {
+    color: orangered;
+}
